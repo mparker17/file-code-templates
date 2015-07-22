@@ -1,0 +1,17 @@
+name        = Name
+description = Description.
+core        = 7.x
+package     = Other
+php         = 5.2
+
+stylesheets[all][] = ${File_name}.css
+
+scripts[] = ${File_name}.js
+
+files[] = tests/${File_name}.test
+
+dependencies[] = system (>7.0)
+
+test_dependencies[] = simpletest
+
+configure = admin/${File_name}

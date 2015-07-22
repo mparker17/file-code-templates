@@ -1,0 +1,6 @@
+/**
+ * @file
+ */
+(function ($) {
+
+})(jQuery);
