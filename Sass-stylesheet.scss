@@ -1,0 +1,13 @@
+//
+// @file
+// Styles for the ${widget} widget.
+//
+
+@import '${theme_name}';
+
+${widget} {
+  $bp-medium: 'only screen and (min-width : 361px) and (max-width : 480px)';
+
+  @media #{$bp-medium} {
+  }
+}
