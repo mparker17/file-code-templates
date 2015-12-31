@@ -1,17 +1,17 @@
-name        = Name
-description = Description.
+name        = ${Module_label}
+description = ${Module_description}.
 core        = 7.x
 package     = Other
 php         = 5.2
 
-stylesheets[all][] = ${File_name}.css
+stylesheets[all][] = ${Module_machine_name}.css
 
-scripts[] = ${File_name}.js
+scripts[] = ${Module_machine_name}.js
 
-files[] = tests/${File_name}.test
+files[] = tests/${Module_machine_name}.test
 
 dependencies[] = system (>7.0)
 
 test_dependencies[] = simpletest
 
-configure = admin/${File_name}
+configure = admin/${Module_machine_name}
