@@ -1,0 +1,6 @@
+{
+    "name": "drupal/${Module_machine_name}",
+    "description": "${Module_machine_name}",
+    "type": "drupal-module",
+    "license": "GPL-2.0+"
+}
