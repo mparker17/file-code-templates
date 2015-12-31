@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Hooks and helper functions for the ${File_name} module.
+ * Hooks and helper functions for the ${Module_machine_name} module.
  */
 
 /* Hooks. */
