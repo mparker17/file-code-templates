@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * Install, update, and uninstall functions for the ${File_name} module.
+ * Install, update, uninstall the ${Module_machine_name} module.
  */
 
 /**
  * Implements hook_requirements().
  */
-function ${File_name}_requirements(${DS}phase) {
+function ${Module_machine_name}_requirements(${DS}phase) {
   ${DS}requirements = array();
   ${DS}t = get_t();
 
@@ -18,7 +18,7 @@ function ${File_name}_requirements(${DS}phase) {
 /**
  * Implements hook_schema().
  */
-function ${File_name}_schema() {
+function ${Module_machine_name}_schema() {
   ${DS}schema = array();
   ${DS}t = get_t();
 
@@ -29,7 +29,7 @@ function ${File_name}_schema() {
 /**
  * Implements hook_install().
  */
-function ${File_name}_install() {
+function ${Module_machine_name}_install() {
   ${DS}t = get_t();
 
   // Noop.
@@ -38,16 +38,16 @@ function ${File_name}_install() {
 /**
  * Implements hook_uninstall().
  */
-function ${File_name}_uninstall() {
+function ${Module_machine_name}_uninstall() {
   ${DS}t = get_t();
 
   // Noop.
 }
 
 /**
- * Installs ${File_name} module.
+ * Installs ${Module_machine_name} module.
  */
-function ${File_name}_update_7000(&${DS}sandbox) {
+function ${Module_machine_name}_update_7000(&${DS}sandbox) {
   ${DS}t = get_t();
 
   // Noop to ensure Drupal stores a schema version in the database.
