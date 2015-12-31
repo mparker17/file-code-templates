@@ -1,0 +1,4 @@
+/**
+ * @file
+ * Contains \Namespace\Class.
+ */
