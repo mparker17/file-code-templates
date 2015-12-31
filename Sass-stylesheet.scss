@@ -1,13 +1,13 @@
 //
 // @file
-// Styles for the ${widget} widget.
+// Styles for the ${Widget_machine_name} widget.
 //
 
-@import '${theme_name}';
+@import '${Theme_name}';
 
-${widget} {
-  $bp-medium: 'only screen and (min-width : 361px) and (max-width : 480px)';
+${Widget_machine_name} {
+  ${DS}bp-medium: 'only screen and (min-width : 361px) and (max-width : 480px)';
 
-  @media #{$bp-medium} {
+  @media #{${DS}bp-medium} {
   }
 }
