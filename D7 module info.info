@@ -16,6 +16,6 @@ files[] = tests/${Module_machine_name}.test
 
 ; Discouraged in favour of packaging script on drupal.org; might still be useful
 ; for custom modules.
-project = ${Module_machine_name}
-project status url = https://drupal.example.com/projects
-version = 7.x-1.x
+version = "7.x-1.0"
+project = "${Module_machine_name}"
+datestamp = "280299600"

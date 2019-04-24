@@ -12,3 +12,9 @@ dependencies:
 configure: ${Module_machine_name}.settings
 
 hidden: false
+
+# Discouraged in favour of packaging script on drupal.org; might still be useful
+# for custom modules.
+version: "8.x-1.0"
+project: '${Module_machine_name}'
+datestamp: 280299600
