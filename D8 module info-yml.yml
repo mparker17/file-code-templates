@@ -1,9 +1,9 @@
-name: ${Module_label}
-description: ${Module_description}.
-package: Other
+name: "${Module_label}"
+description: "${Module_description}."
+package: "Other"
 
 type: module
-core: 8.x
+core: "8.x"
 php: "7.2"
 
 dependencies:
