@@ -8,6 +8,8 @@ php: "7.2"
 
 dependencies:
   - "drupal:system (>=8.6.0)"
+test_dependencies:
+  - "drupal:system (>=8.6.0)"
 
 configure: ${Module_machine_name}.settings
 
