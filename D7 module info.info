@@ -6,7 +6,7 @@ core = 7.x
 php = 5.2
 
 dependencies[] = drupal:system (>7.0)
-test_dependencies[] = simpletest
+test_dependencies[] = drupal:simpletest (>7.0)
 
 configure = admin/${Module_machine_name}
 
