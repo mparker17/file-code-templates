@@ -1,20 +1,18 @@
-name        = ${Module_label}
+name = ${Module_label}
 description = ${Module_description}.
-core        = 7.x
-package     = Other
-php         = 5.2
+package = Other
 
-stylesheets[all][] = ${Module_machine_name}.css
-
-scripts[] = ${Module_machine_name}.js
-
-files[] = tests/${Module_machine_name}.test
+core = 7.x
+php = 5.2
 
 dependencies[] = drupal:system (>7.0)
-
 test_dependencies[] = simpletest
 
 configure = admin/${Module_machine_name}
+
+stylesheets[all][] = ${Module_machine_name}.css
+scripts[] = ${Module_machine_name}.js
+files[] = tests/${Module_machine_name}.test
 
 ; Discouraged in favour of packaging script on drupal.org; might still be useful
 ; for custom modules.
