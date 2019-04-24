@@ -6,7 +6,7 @@ type: module
 core: 8.x
 
 dependencies:
-  - system
+  - "drupal:system (>=8.6.0)"
 
 configure: ${Module_machine_name}.settings
 

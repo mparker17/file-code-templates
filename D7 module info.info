@@ -10,7 +10,7 @@ scripts[] = ${Module_machine_name}.js
 
 files[] = tests/${Module_machine_name}.test
 
-dependencies[] = system (>7.0)
+dependencies[] = drupal:system (>7.0)
 
 test_dependencies[] = simpletest
 
